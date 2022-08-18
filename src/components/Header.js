@@ -13,17 +13,62 @@ const Header = () => {
       <h1>Trending News</h1>
       <div className='container justifyContent center'>
 
-      <div className="my-3">
+      <div className="col-md-4">
         <div className="card" style={{width: "24rem", margin:'3px', height: '27em'}}>
               <img src={"https:images.moneycontrol.com/static-mcnews/2017/03/IPO_initial_public_offerings_IPO_1280x720-770x433.jpg"} className="card-img-top" alt="..."/>
               <div className="card-body">
-                <h5 className="card-title">Data can  be put here...<span className="badge bg-secondary">harsh</span></h5>
-                <p className="card-text">...</p>
-                <p className="card-text"><small className="text-muted">By harsh</small></p>
+                <h5 className="card-title">cfs...<span className="badge bg-secondary">dddd</span></h5>
+                <p className="card-text">ddddd...</p>
+                <p className="card-text"><small className="text-muted">Byddond</small></p>
                 <a rel ="no referrer" href={{}} target="_blank" className="btn btn-sm btn-danger mx-0 my-0" style={{marginbotom:'4px',marginleft:'9px'}}>Show more</a>
               </div>
             </div>
       </div>
+      <h1>Achievments</h1>
+      <div className="continer">
+        <div className="d-flex flex-row mb-3  ">
+        <div className="col-md-4">
+        <div className="card" style={{width: "24rem", margin:'3px', height: '27em'}}>
+              <img src={"https:images.moneycontrol.com/static-mcnews/2017/03/IPO_initial_public_offerings_IPO_1280x720-770x433.jpg"} className="card-img-top" alt="..."/>
+              <div className="card-body">
+                <h5 className="card-title">cfs...<span className="badge bg-secondary">dddd</span></h5>
+                <p className="card-text">ddddd...</p>
+                <p className="card-text"><small className="text-muted">Byddond</small></p>
+                <a rel ="no referrer" href={{}} target="_blank" className="btn btn-sm btn-danger mx-0 my-0" style={{marginbotom:'4px',marginleft:'9px'}}>Show more</a>
+              </div>
+            </div>
+      </div>
+      <div className="col-md-4">
+        <div className="card" style={{width: "24rem", margin:'3px', height: '27em'}}>
+              <img src={"https:images.moneycontrol.com/static-mcnews/2017/03/IPO_initial_public_offerings_IPO_1280x720-770x433.jpg"} className="card-img-top" alt="..."/>
+              <div className="card-body">
+                <h5 className="card-title">cfs...<span className="badge bg-secondary">dddd</span></h5>
+                <p className="card-text">ddddd...</p>
+                <p className="card-text"><small className="text-muted">Byddond</small></p>
+                <a rel ="no referrer" href={{}} target="_blank" className="btn btn-sm btn-danger mx-0 my-0" style={{marginbotom:'4px',marginleft:'9px'}}>Show more</a>
+              </div>
+            </div>
+      </div>
+      <div className="col-md-4">
+        <div className="card" style={{width: "24rem", margin:'3px', height: '27em'}}>
+              <img src={"https:images.moneycontrol.com/static-mcnews/2017/03/IPO_initial_public_offerings_IPO_1280x720-770x433.jpg"} className="card-img-top" alt="..."/>
+              <div className="card-body">
+                <h5 className="card-title">cfs...<span className="badge bg-secondary">dddd</span></h5>
+                <p className="card-text">ddddd...</p>
+                <p className="card-text"><small className="text-muted">Byddond</small></p>
+                <a rel ="no referrer" href={{}} target="_blank" className="btn btn-sm btn-danger mx-0 my-0" style={{marginbotom:'4px',marginleft:'9px'}}>Show more</a>
+              </div>
+            </div>
+      </div>
+        </div>
+
+
+      </div>
+
+
+
+
+
       </div>
 
       </div>

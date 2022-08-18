@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import LoadingBar from 'react-top-loading-bar'
 import Header from './components/Header';
+import Footer from './components/Footer/Footer';
 
 export default class App extends Component {
   state ={
@@ -50,8 +51,8 @@ export default class App extends Component {
           <Route path="/Sports" element={<News setProgress={this.setProgress} key="Sports" pageSize={this.pageSize} country= "in" category="Sports"/>}/>
           <Route path="/Technology" element={<News setProgress={this.setProgress} key="Technology" pageSize={this.pageSize} country= "in" category="Technology"/>}/>
 
-          
         </Routes>
+          <Footer/>
         </Router>
       </div>
     )
