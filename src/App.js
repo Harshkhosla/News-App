@@ -10,6 +10,7 @@ import {
   Routes
 } from "react-router-dom";
 import LoadingBar from 'react-top-loading-bar'
+import Header from './components/Header';
 
 export default class App extends Component {
   state ={
@@ -41,6 +42,7 @@ export default class App extends Component {
       />
         
         <Routes>
+          <Route path='/'element={<Header/>}/>
         
           <Route path="/Business" element={<News setProgress={this.setProgress} key="business" pageSize={this.pageSize} country= "in" category="Business"/>}/>
           <Route path="/Entertainment" element={<News setProgress={this.setProgress} key="Entertainment" pageSize={this.pageSize} country= "in" category="Entertainment"/>}/>
